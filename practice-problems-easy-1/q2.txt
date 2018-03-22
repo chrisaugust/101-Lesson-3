@@ -1,0 +1,17 @@
+1. != means not equal to. It can be used as a test conditions for control
+ flow. eg return "Dog ate it!" if homework != 'turned in'
+
+2. ! before a variable means 'not'.
+It changes the truthiness of that variable. Which means
+in practice that if <variable> is set to false or nil, !<variable> will evaluate to true, and for all other cases !<variable> will evaluate to false.
+
+
+3. The ! in words.uniq! is a signal that the method mutates the caller.
+
+4. ? before something indicates a ternary operator.
+
+5. ? after something indicates that the preceding something is a method, and most likely one that is booleanish, ie it returns true/false.
+
+6. !! is the opposite of !. It turns an object into its boolean value. 
+
+ 
